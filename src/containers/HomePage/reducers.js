@@ -1,3 +1,3 @@
 const defaultState = {
-
+    test: "Test"
 }
