@@ -1,9 +1,10 @@
 import './App.css';
+import { HomePage } from './containers/HomePage';
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello React JS Developers</h1>
+      <HomePage />
     </div>
   );
 }
