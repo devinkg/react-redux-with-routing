@@ -18,5 +18,10 @@ export const HomePage = (props) => {
         console.log("Users: ", response.data.data);
     }
 
+    useEffect(() => {
+        fetchUsers();
+        return () => { }
+    }, [])
+
     return <div> Hello World! </div>
 }
