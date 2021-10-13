@@ -19,7 +19,7 @@ export const HomePage = (props) => {
     }
 
     useEffect(() => {
-        fetchUsers();
+        fetchUsers(); // calling fetch user
         return () => { }
     }, [])
 
