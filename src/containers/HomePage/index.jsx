@@ -8,6 +8,10 @@ const stateSelector = createSelector(makeSelectUsers, (users) => ({
     myUsers: users
 }))
 
+const actionDispatcher =(dispatch)=>({
+    setUser:(users)=>dispatch(setUser(users))
+})
+
 export const HomePage = (props) => {
     const { myUsers } = useSelector(stateSelector);
 
