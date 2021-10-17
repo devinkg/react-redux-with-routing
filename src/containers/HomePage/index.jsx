@@ -23,7 +23,7 @@ export const HomePage = (props) => {
     }
 
     useEffect(() => {
-        fetchUsers(); // calling fetch user API
+        fetchUsers(); // calling fetch user API //Test
         return () => { }
     }, [])
 
